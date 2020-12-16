@@ -14,9 +14,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 //    Default viewContriller and views initializer
     private let viewController = UIViewController()
-    private var rootView: UIView?
-    private let redView = UIView()
-    private let blueView = UIView()
+    private var root: UIView?
+    private let red = UIView()
+    private let blue = UIView()
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
