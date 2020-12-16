@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 //    Default viewContriller and views initializer
     private let viewController = UIViewController()
+    private var rootView: UIView?
     private let redView = UIView()
     private let blueView = UIView()
 
@@ -24,11 +25,6 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         if let window = self.window {
             window.rootViewController = viewController
             window.makeKeyAndVisible()
-            
-            let rootView = viewController.view!
-            rootView.backgroundColor = .white
-            
-            
             
         }
         return true
